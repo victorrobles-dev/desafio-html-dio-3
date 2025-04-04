@@ -4,16 +4,33 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: #87CEFA;
+header {
+    border-bottom: solid 1px grey;
 }
 
+.espaco {
+    height: 50px;
+}
 
+.nav { 
+    padding: 15px;
+    border-right: solid 1px grey;
+}
 
+.anchors {
+    padding: 15px;
+    border-left: solid 1px grey;
+}
 
-
+main {
+    border-bottom: solid 1px grey;
+    border-top: solid 1px grey;
+    padding: 20px;
+    display: flex;
+    position: absolute 1px;
+}
 
 footer {
-    background-color: #B0C4DE;
+    margin-top: 300px;
     text-align: center;
 }
