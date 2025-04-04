@@ -12,14 +12,23 @@ header {
     height: 50px;
 }
 
-.nav { 
+.nav-left { 
     padding: 15px;
     border-right: solid 1px grey;
 }
 
-.anchors {
+.anchors-right {
     padding: 15px;
     border-left: solid 1px grey;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.titulos { 
+    text-align: center;
+    color: purple;
 }
 
 main {
@@ -30,7 +39,14 @@ main {
     position: absolute 1px;
 }
 
+main > p {
+    padding: 20px;
+}
+
 footer {
     margin-top: 300px;
     text-align: center;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
 }
+
