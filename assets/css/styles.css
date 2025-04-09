@@ -5,7 +5,7 @@
 }
 
 header {
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px #B0C4DE;
 }
 
 .espaco {
@@ -14,12 +14,12 @@ header {
 
 .nav-left { 
     padding: 15px;
-    border-right: solid 1px grey;
+    border-right: solid 1px #B0C4DE;
 }
 
 .anchors-right {
     padding: 15px;
-    border-left: solid 1px grey;
+    border-left: solid 1px #B0C4DE;
 }
 
 .links {
@@ -27,26 +27,41 @@ header {
 }
 
 .titulos { 
+    padding: 15px;
     text-align: center;
-    color: purple;
+    color: #0000CD;
 }
 
 main {
-    border-bottom: solid 1px grey;
-    border-top: solid 1px grey;
-    padding: 20px;
-    display: flex;
-    position: absolute 1px;
+    border-top: 1px solid #B0C4DE;
+    border-bottom: 1px solid #B0C4DE;
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar conteudo anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 main > p {
     padding: 20px;
 }
 
+main > .conteudo > figure {
+    text-align: center;
+}
+
+main > .conteudo > figure > p{
+    text-align: center;
+}
+
 footer {
     margin-top: 300px;
     text-align: center;
-    border-top: solid 1px grey;
-    border-bottom: solid 1px grey;
+    border-top: solid 1px #B0C4DE;
+    border-bottom: solid 1px #B0C4DE;
 }
 
