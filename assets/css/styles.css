@@ -17,9 +17,17 @@ header {
     border-right: solid 1px #B0C4DE;
 }
 
+.nav-left > a {
+    margin-left: 30px;
+}
+
 .anchors-right {
     padding: 15px;
     border-left: solid 1px #B0C4DE;
+}
+
+.anchors-right > a {
+    margin-left: 70px;
 }
 
 .links {
